@@ -1,0 +1,5 @@
+billiard-table.png
+*.zip
+.vscode
+build/
+src/res/fonts
