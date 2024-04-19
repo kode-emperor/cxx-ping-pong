@@ -3,3 +3,4 @@ billiard-table.png
 .vscode
 build/
 src/res/fonts
+bin/

@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.29)
 project(PingPongXX LANGUAGES CXX)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-set(SRC "src/main.c++")
+
+file(GLOB SRC src/*.c++ src/*.cpp)
+message("Collected sources files are: ${SRC}")
 add_executable(PingPongXX ${SRC})
 
 if(APPLE) 
